@@ -1,7 +1,6 @@
 var main = function(){
 	var logged = false;
 	if(logged){
-		$("#link_login").hide();
 		$("#games").show();
 		$("#achievements").show();
 		$("#ladders").show();
@@ -9,10 +8,6 @@ var main = function(){
 	}
 	else{
 		$("#link_login").show();
-		$("#games").hide();
-		$("#profile").hide();
-		$("#achievements").hide();
-		$("#ladders").hide();
 	}
 
 	var all = $(window);

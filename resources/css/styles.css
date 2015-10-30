@@ -98,3 +98,13 @@
 				cursor: pointer;
 			}
 
+			.profileElem{
+				border-bottom: solid 1px whitesmoke;
+				padding-bottom:10px;
+				padding-top:10px;
+			}
+
+			.profileElemLast{
+				border-bottom: 0;
+				padding-bottom:0;
+			}
